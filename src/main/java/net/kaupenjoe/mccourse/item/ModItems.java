@@ -3,6 +3,7 @@ package net.kaupenjoe.mccourse.item;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.kaupenjoe.mccourse.MCCourseMod;
+import net.kaupenjoe.mccourse.item.custom.ChainsawItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroups;
 import net.minecraft.registry.Registries;
@@ -12,6 +13,8 @@ import net.minecraft.util.Identifier;
 public class ModItems {
     public static final Item FLUORITE = registerItem("fluorite", new Item(new Item.Settings()));
     public static final Item RAW_FLUORITE = registerItem("raw_fluorite", new Item(new Item.Settings()));
+
+    public static final Item CHAINSAW = registerItem("chainsaw", new ChainsawItem(new Item.Settings().maxDamage(32)));
 
 
     private static Item registerItem(String name, Item item) {
