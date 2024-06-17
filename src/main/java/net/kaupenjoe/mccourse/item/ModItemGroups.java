@@ -19,6 +19,7 @@ public class ModItemGroups {
                         entries.add(ModItems.RAW_FLUORITE);
 
                         entries.add(ModItems.CHAINSAW);
+                        entries.add(ModItems.STRAWBERRY);
 
                     }).build());
 
