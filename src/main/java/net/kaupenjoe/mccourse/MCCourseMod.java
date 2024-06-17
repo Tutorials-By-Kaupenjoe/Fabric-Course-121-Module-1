@@ -2,6 +2,7 @@ package net.kaupenjoe.mccourse;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.kaupenjoe.mccourse.block.ModBlocks;
 import net.kaupenjoe.mccourse.item.ModItemGroups;
 import net.kaupenjoe.mccourse.item.ModItems;
 import org.slf4j.Logger;
@@ -16,5 +17,6 @@ public class MCCourseMod implements ModInitializer {
 		ModItemGroups.registerItemGroups();
 
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }
