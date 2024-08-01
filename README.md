@@ -3,7 +3,7 @@
 <img src="https://kaupenjoe.net/files/General/Minecraft/Modding/Course/fabric-121x-course-image.jpg" alt="Logo" width="1000"/> 
 </p></a>
 
-# Modding by Kaupenjoe: Minecraft 1.21.X Modding Course with Fabric
+# Modding by Kaupenjoe: Fabric Modding for Minecraft 1.21.X
 This is the GitHub Repository for Kaupenjoe's Minecraft Modding Course using Fabric for version 1.21.X. 
 
 It covers a variety of Topics, from Custom Tools, to Custom Armor, all the way to Custom Block Entities and Custom Mobs. This is the GitHub Repository for Module 1, there are other repos for the other modules too
